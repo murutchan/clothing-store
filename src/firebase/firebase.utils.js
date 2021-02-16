@@ -35,9 +35,6 @@ export const createUserProfileDocument = async (userAuth, additionalData) => {
     }
   }
 
-  console.log(snapShot);
-
-  console.log(`users/${userAuth.uid}`);
   return userRef;
 };
 
